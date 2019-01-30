@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nuxt build && nuxt start",
     "heroku-postbuild": "npm run build",
     "prestart": "npm run build",
     "generate": "nuxt generate",
